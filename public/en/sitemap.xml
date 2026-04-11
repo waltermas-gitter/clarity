@@ -2,214 +2,214 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/clarity/</loc>
     <lastmod>2026-04-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/"
+                href="http://localhost:1313/clarity/pt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/clarity/"
                 />
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/clarity/about/</loc>
     <lastmod>2026-04-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/about/"
+                href="http://localhost:1313/clarity/pt/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/about/"
+                href="http://localhost:1313/clarity/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/clarity/categories/</loc>
     <lastmod>2026-04-05T19:15:45-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/categories/"
+                href="http://localhost:1313/clarity/pt/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:1313/clarity/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/fabrica/</loc>
+    <loc>http://localhost:1313/clarity/categories/fabrica/</loc>
     <lastmod>2026-04-05T19:15:45-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/index/</loc>
+    <loc>http://localhost:1313/clarity/tags/index/</loc>
     <lastmod>2026-04-05T19:15:45-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>http://localhost:1313/clarity/post/</loc>
     <lastmod>2026-04-05T19:15:45-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/post/"
+                href="http://localhost:1313/clarity/pt/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/post/"
+                href="http://localhost:1313/clarity/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/clarity/tags/</loc>
     <lastmod>2026-04-05T19:15:45-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/tags/"
+                href="http://localhost:1313/clarity/pt/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/clarity/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/post/vanity/</loc>
+    <loc>http://localhost:1313/clarity/post/vanity/</loc>
     <lastmod>2026-04-05T19:15:45-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/cubos-barzante/</loc>
+    <loc>http://localhost:1313/clarity/post/cubos-barzante/</loc>
     <lastmod>2026-04-05T10:28:34-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/cubos-ernesto/</loc>
+    <loc>http://localhost:1313/clarity/post/cubos-ernesto/</loc>
     <lastmod>2026-04-04T18:00:03-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/links/</loc>
+    <loc>http://localhost:1313/clarity/tags/links/</loc>
     <lastmod>2026-04-04T15:43:03-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/my-first-post/</loc>
+    <loc>http://localhost:1313/clarity/post/my-first-post/</loc>
     <lastmod>2026-04-04T15:43:03-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/test/</loc>
+    <loc>http://localhost:1313/clarity/categories/test/</loc>
     <lastmod>2026-04-04T15:43:03-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>http://localhost:1313/clarity/tags/hugo/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://localhost:1313/clarity/series/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/series/"
+                href="http://localhost:1313/clarity/pt/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/series/"
+                href="http://localhost:1313/clarity/series/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/syntax/</loc>
+    <loc>http://localhost:1313/clarity/categories/syntax/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/themes-guide/</loc>
+    <loc>http://localhost:1313/clarity/series/themes-guide/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/bundle/</loc>
+    <loc>http://localhost:1313/clarity/post/bundle/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/map/</loc>
+    <loc>http://localhost:1313/clarity/post/map/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/notices/</loc>
+    <loc>http://localhost:1313/clarity/post/notices/</loc>
     <lastmod>2021-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>http://localhost:1313/clarity/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
+    <loc>http://localhost:1313/clarity/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/tags/css/"
+                href="http://localhost:1313/clarity/pt/tags/css/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tags/css/"
+                href="http://localhost:1313/clarity/tags/css/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/featured/</loc>
+    <loc>http://localhost:1313/clarity/tags/featured/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/html/</loc>
+    <loc>http://localhost:1313/clarity/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/tags/html/"
+                href="http://localhost:1313/clarity/pt/tags/html/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tags/html/"
+                href="http://localhost:1313/clarity/tags/html/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>http://localhost:1313/clarity/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/tags/markdown/"
+                href="http://localhost:1313/clarity/pt/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tags/markdown/"
+                href="http://localhost:1313/clarity/tags/markdown/"
                 />
   </url><url>
-    <loc>http://localhost:1313/post/markdown-syntax/</loc>
+    <loc>http://localhost:1313/clarity/post/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/post/markdown-syntax/"
+                href="http://localhost:1313/clarity/pt/post/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/post/markdown-syntax/"
+                href="http://localhost:1313/clarity/post/markdown-syntax/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/themes/</loc>
+    <loc>http://localhost:1313/clarity/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/themes/</loc>
+    <loc>http://localhost:1313/clarity/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/privacy/</loc>
+    <loc>http://localhost:1313/clarity/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/rich-content/</loc>
+    <loc>http://localhost:1313/clarity/post/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/shortcodes/</loc>
+    <loc>http://localhost:1313/clarity/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/placeholder-text/</loc>
+    <loc>http://localhost:1313/clarity/post/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/text/</loc>
+    <loc>http://localhost:1313/clarity/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/math-typesetting/</loc>
+    <loc>http://localhost:1313/clarity/post/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/emoji/</loc>
+    <loc>http://localhost:1313/clarity/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/emoji-support/</loc>
+    <loc>http://localhost:1313/clarity/post/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>http://localhost:1313/clarity/search/</loc>
   </url>
 </urlset>

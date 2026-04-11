@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Test on Clarity</title>
-    <link>http://localhost:1313/categories/test/</link>
+    <link>http://localhost:1313/clarity/categories/test/</link>
     <description>Recent content in Test on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>@waltermas</copyright>
-    <lastBuildDate>Sat, 04 Apr 2026 15:43:03 -0300</lastBuildDate><atom:link href="http://localhost:1313/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Apr 2026 15:43:03 -0300</lastBuildDate><atom:link href="http://localhost:1313/clarity/categories/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/post/my-first-post/</link>
+      <link>http://localhost:1313/clarity/post/my-first-post/</link>
       <pubDate>Sat, 04 Apr 2026 15:43:03 -0300</pubDate>
       
-      <guid>http://localhost:1313/post/my-first-post/</guid>
+      <guid>http://localhost:1313/clarity/post/my-first-post/</guid>
       <description>
         
           
