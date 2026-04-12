@@ -24,21 +24,5 @@
       </description>
     </item>
     
-    <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/clarity/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/clarity/post/placeholder-text/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
   </channel>
 </rss>

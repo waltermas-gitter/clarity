@@ -10,5 +10,6 @@ categories = ['test']
 [hugo](https://gohugo.io/)  
 [clarity proyect en github](https://waltermas-gitter.github.io/clarity/)  
 [clarity proyect local](http://localhost:1313/)  
-[markdown cheat sheet] (https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet)  
+[markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet)  
+[clarity tutorial](https://github.com/chipzoller/hugo-clarity)
 
