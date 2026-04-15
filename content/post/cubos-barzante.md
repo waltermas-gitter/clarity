@@ -13,5 +13,5 @@ Cozumel alto 74
 queda 43  
 
 
-![cubos barzante](/images/cubos-barzante.jpeg)
+![cubos barzante](images/cubos-barzante.jpeg)
 
