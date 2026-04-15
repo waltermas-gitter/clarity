@@ -1,0 +1,9 @@
+---
+date: 2024-11-24
+layout: default
+title: radios
+categories: ["papers"]
+---
+{{< radios >}}
+
+![image](/hugopapers/images/aboutfoto.png)

@@ -25,7 +25,7 @@
 <meta property="og:type" content="website">
 <meta name="description" content="A theme based on VMware&#39;s Clarity Design System for publishing technical blogs with Hugo." />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:creator" content="@janedoe">
+<meta name="twitter:creator" content="@waltejmas">
 <meta name="twitter:title" content="" />
 <meta name="twitter:image" content="http://localhost:1313/clarity/images/thumbnail.png"/>
 <meta property="og:url" content="http://localhost:1313/clarity/" />
@@ -44,7 +44,7 @@
 
 
 
-<link rel="preload" href="http://localhost:1313/clarity/css/styles.dc38388a8f0b890e788bd3a99b7495d14e7d5ac4359ed3b49abeb778497863b284ad4cc7e496ef58c84139295f9bafed82f5a41345eda86bd2d429cccb7c2596.css" integrity = "sha512-3Dg4io8LiQ54i9Opm3SV0U59WsQ1ntO0mr63eEl4Y7KErUzH5JbvWMhBOSlfm6/tgvWkE0XtqGvS1CnMy3wllg==" as="style" crossorigin="anonymous">
+<link rel="preload" href="http://localhost:1313/clarity/css/styles.92324fc8ba73816c2379073d02a887307a000cf5b98bcbc3ba90ad55f0cbc81fa3ea197dbca1725f487578e3806c839c1541f033c1e5811e570f1b3aa2ff1f05.css" integrity = "sha512-kjJPyLpzgWwjeQc9AqiHMHoADPW5i8vDupCtVfDLyB&#43;j6hl9vKFyX0h1eOOAbIOcFUHwM8HlgR5XDxs6ov8fBQ==" as="style" crossorigin="anonymous">
 
 
 
@@ -52,7 +52,7 @@
 "sha512-n6Rcinyy8HaeGwnpH3bqTZxZduvupM8OZfeDTch6pxALiKb8aT5dX6nr9kPczfUS4gSrOSdzJN7ifM9qD3cF7A==" crossorigin="anonymous">
 
 
-<link rel="stylesheet" type="text/css" href="http://localhost:1313/clarity/css/styles.dc38388a8f0b890e788bd3a99b7495d14e7d5ac4359ed3b49abeb778497863b284ad4cc7e496ef58c84139295f9bafed82f5a41345eda86bd2d429cccb7c2596.css" integrity="sha512-3Dg4io8LiQ54i9Opm3SV0U59WsQ1ntO0mr63eEl4Y7KErUzH5JbvWMhBOSlfm6/tgvWkE0XtqGvS1CnMy3wllg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="http://localhost:1313/clarity/css/styles.92324fc8ba73816c2379073d02a887307a000cf5b98bcbc3ba90ad55f0cbc81fa3ea197dbca1725f487578e3806c839c1541f033c1e5811e570f1b3aa2ff1f05.css" integrity="sha512-kjJPyLpzgWwjeQc9AqiHMHoADPW5i8vDupCtVfDLyB&#43;j6hl9vKFyX0h1eOOAbIOcFUHwM8HlgR5XDxs6ov8fBQ==" crossorigin="anonymous">
 
   </head>
   <body
@@ -81,37 +81,45 @@
     <div class='nav_body nav_body_left'>
       
       
-      
-        
+      <div class="nav_parent">
+        <a href="/clarity" class="nav_item" title="Inicio">Inicio</a>
+      </div>
 
-  <div class="nav_parent nav_active">
-    <a href="http://localhost:1313/clarity/" class="nav_item" title="Home">Home </a>
-  </div>
-  <div class="nav_parent">
-    <a href="http://localhost:1313/clarity/post/rich-content/" class="nav_item" title="Archives">Archives </a>
-  </div>
-  <div class="nav_parent">
-    <a href="http://localhost:1313/clarity/" class="nav_item" title="Links">Links <img src='http://localhost:1313/clarity/icons/caret-icon.svg' alt="icon" class="nav_icon"></a>
-    <div class="nav_sub">
-      <span class="nav_child"></span>
-        <a href="https://www.linkedin.com/" class="nav_child nav_item" title="LinkedIn">LinkedIn</a>
-        <a href="https://x.com/" class="nav_child nav_item" title="X">X</a>
-    </div>
-  </div>
-  <div class="nav_parent">
-    <a href="http://localhost:1313/clarity/about/" class="nav_item" title="About">About </a>
-  </div>
       
       <div class="nav_parent">
-        <a href="#" class="nav_item">🌐</a>
+        <a href="#" class="nav_item" title="Categorías">Categorías <img src='http://localhost:1313/clarity/icons/caret-icon.svg' alt="icon" class="nav_icon"></a>
         <div class="nav_sub">
           <span class="nav_child"></span>
-          
-          <a href="http://localhost:1313/clarity/" class="nav_child nav_item">English</a>
-          
-          <a href="http://localhost:1313/clarity/pt/" class="nav_child nav_item">Português</a>
-          
+          <a href="/clarity/categories/fabrica/" class="nav_child nav_item" title="Fabrica">Fabrica</a>
+          <a href="/clarity/categories/papers/" class="nav_child nav_item" title="Papers">Papers</a>
+          <a href="/clarity/categories/test/" class="nav_child nav_item" title="Test">Test</a>
         </div>
+      </div>
+
+      
+      <div class="nav_parent">
+        <a href="#" class="nav_item" title="Etiquetas">Etiquetas <img src='http://localhost:1313/clarity/icons/caret-icon.svg' alt="icon" class="nav_icon"></a>
+        <div class="nav_sub">
+          <span class="nav_child"></span>
+          <a href="/clarity/tags/index/" class="nav_child nav_item" title="Index">Index</a>
+          <a href="/clarity/tags/links/" class="nav_child nav_item" title="Links">Links</a>
+          <a href="/clarity/tags/linux/" class="nav_child nav_item" title="Linux">Linux</a>
+        </div>
+      </div>
+      <div class="nav_hide">
+  
+  <div class="search">
+    <input type="search" class="search_field form_field" placeholder='Search...' id="find" autocomplete="off" data-scope=''>
+    <label for="find" class="search_label"><svg class="icon">
+  <title>search</title>
+  <use xlink:href="#search"></use>
+</svg>
+
+    </label>
+    
+    <div class="search_results results"></div>
+  </div>
+
       </div>
 <div class='follow'>
   <a href="https://github.com/#">
@@ -166,7 +174,7 @@
   <div class="excerpt">
     <div class="excerpt_header">
       <h3 class="post_link">
-        <a href="http://localhost:1313/clarity/post/math-typesetting/" title="Math Typesetting">Math Typesetting</a>
+        <a href="http://localhost:1313/clarity/post/papers/repetidor/" title="repetidor">repetidor</a>
       </h3>
       
   <div class="post_meta">
@@ -176,20 +184,20 @@
 </svg>
 </span>
     <span class="post_date">
-      Mar 8, 2019	  
+      Jul 19, 2025	  
     </span>
     <span class="post_time"> · 1 min read</span>
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=Math%20Typesetting&url=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fmath-typesetting%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=repetidor&url=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2frepetidor%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>twitter</title>
   <use xlink:href="#twitter"></use>
 </svg>
 
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fmath-typesetting%2f&t=Math%20Typesetting" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2frepetidor%2f&t=repetidor" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <title>facebook</title>
   <use xlink:href="#facebook"></use>
@@ -203,7 +211,7 @@
 </svg>
 
     </a>
-    <a href="http://localhost:1313/clarity/post/math-typesetting/" title="Copy Link" class="link link_yank">
+    <a href="http://localhost:1313/clarity/post/papers/repetidor/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <title>copy</title>
   <use xlink:href="#copy"></use>
@@ -218,12 +226,639 @@
       <div class="excerpt_footer">
         <div class="pale">
           
-            <p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
-In this example we will be using KaTeX
-Create a partial under /layouts/partials/hooks/head-end.html Add these lines to the newly created partial: 1{{ if or .Params.math .Site.Params.math }} 2{{ partial &quot;math.html&quot; . }} 3{{ …</p>
+            <p>resetear el repetidor estando conectado con el celular sacar los datos y conectarse al wifi del repetidor
+entrar en tplinkrepeater.net o 192.168.0.254
+configurar</p>
           
           <br>
-          <a href="http://localhost:1313/clarity/post/math-typesetting/" title="Read More" class="excerpt_more button">Read More</a>
+          <a href="http://localhost:1313/clarity/post/papers/repetidor/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="http://localhost:1313/clarity/post/papers/yazi/" title="Yazı">Yazı</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Jul 3, 2025	  
+    </span>
+    <span class="post_time"> · 1 min read</span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    Share on:
+    <a href="https://twitter.com/intent/tweet?text=Yaz%c4%b1&url=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fyazi%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fyazi%2f&t=Yaz%c4%b1" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="http://localhost:1313/clarity/post/papers/yazi/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p>yazi por lo general sigue los atajos de teclado de vim F1 help ~ help a create file name/ create directory z zoxide . toggle hidden files d delete file r rename file / search file s fd search S ripgrep search f filter files F search file recursive (fuzzy) shell command (block)
+; shell command ej: ;eog &quot;$0&quot;
+y yank …</p>
+          
+          <br>
+          <a href="http://localhost:1313/clarity/post/papers/yazi/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="http://localhost:1313/clarity/post/papers/broot/" title="Broot">Broot</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Jun 25, 2025	  
+    </span>
+    <span class="post_time"> · 1 min read</span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    Share on:
+    <a href="https://twitter.com/intent/tweet?text=Broot&url=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fbroot%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fbroot%2f&t=Broot" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="http://localhost:1313/clarity/post/papers/broot/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p>Broot comando
+espacio comando
+alt+enter cd
+:q quit
+:h toggle hidden files
+:z zoxide interactive
+verbos: cp, mv, mkdir, rm, touch, rename, create
+edit copypathtoclipboard
+file-roller
+nvim file (v file) setwallpaper :stage pasa al stage area
+:panel_derecho
+:panel_izquierdo</p>
+          
+          <br>
+          <a href="http://localhost:1313/clarity/post/papers/broot/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="http://localhost:1313/clarity/post/papers/neovim/" title="neovim">neovim</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Jun 23, 2025	  
+    </span>
+    <span class="post_time"> · 3 min read</span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    Share on:
+    <a href="https://twitter.com/intent/tweet?text=neovim&url=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fneovim%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fneovim%2f&t=neovim" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="http://localhost:1313/clarity/post/papers/neovim/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p>tips % va al compañero de llave, paréntesis, corchete, etc
+asterisco selecciona todas las palabras que coincidan con la palabra bajo el cursor
+control-v visual block mode
+control-O en insert mode permite ejecutar un comando en normal mode y luego volver al insert mode
+u undo
+control-r redo
+!! en normal mode ejecuta un …</p>
+          
+          <br>
+          <a href="http://localhost:1313/clarity/post/papers/neovim/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="http://localhost:1313/clarity/post/papers/c&#43;&#43;/" title="c&#43;&#43;">c++</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      May 29, 2025	  
+    </span>
+    <span class="post_time"> · 2 min read</span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    Share on:
+    <a href="https://twitter.com/intent/tweet?text=c%2b%2b&url=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fc%2b%2b%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fc%2b%2b%2f&t=c%2b%2b" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="http://localhost:1313/clarity/post/papers/c&#43;&#43;/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p>tutorial
+build 1CMakeLists.txt 2mkdir build 3cd build 4cmake .. 5cmake --build . 6 7archivo.pro 8qmake 9make # En Linux/macOS 10nmake # En Windows con Visual Studio 11mingw32-make # En Windows con MinGW cppreference
+1int main(int argc, char* argv[]){ 2// comment 3/* multi 4line 5comment */ 6 int numero1 = 10; 7 int …</p>
+          
+          <br>
+          <a href="http://localhost:1313/clarity/post/papers/c&#43;&#43;/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="http://localhost:1313/clarity/post/papers/hora/" title="hora debian">hora debian</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      May 26, 2025	  
+    </span>
+    <span class="post_time"> · 1 min read</span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    Share on:
+    <a href="https://twitter.com/intent/tweet?text=hora%20debian&url=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fhora%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fhora%2f&t=hora%20debian" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="http://localhost:1313/clarity/post/papers/hora/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p>ntp config</p>
+          
+          <br>
+          <a href="http://localhost:1313/clarity/post/papers/hora/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="http://localhost:1313/clarity/post/papers/qtcreator/" title="qt">qt</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Apr 14, 2025	  
+    </span>
+    <span class="post_time"> · 1 min read</span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    Share on:
+    <a href="https://twitter.com/intent/tweet?text=qt&url=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fqtcreator%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fqtcreator%2f&t=qt" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="http://localhost:1313/clarity/post/papers/qtcreator/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p>tutorial
+Hacer un programa:
+qmake6 test.prog make
+./test
+compilar programa de c gcc programa.c -o programa
+./programa</p>
+          
+          <br>
+          <a href="http://localhost:1313/clarity/post/papers/qtcreator/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="http://localhost:1313/clarity/post/papers/qtile/" title="qtile">qtile</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Mar 9, 2025	  
+    </span>
+    <span class="post_time"> · 1 min read</span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    Share on:
+    <a href="https://twitter.com/intent/tweet?text=qtile&url=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fqtile%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fqtile%2f&t=qtile" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="http://localhost:1313/clarity/post/papers/qtile/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p>keys mod r: spawn app
+mod ctrl r: reload config
+mod enter: terminal
+mod f: fullscreen
+mod t: floating
+mod tab: cycle layout
+mod hjkl: focus window mod ctrl hl: prev-next group mod n: normalize window
+mod w: kill window
+mod ctrl q: quit qtile
+mod o g: start chrome
+xephyr Xephyr -br -ac -noreset -xkb-layout es …</p>
+          
+          <br>
+          <a href="http://localhost:1313/clarity/post/papers/qtile/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="http://localhost:1313/clarity/post/papers/debian/" title="debian">debian</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Feb 19, 2025	  
+    </span>
+    <span class="post_time"> · 1 min read</span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    Share on:
+    <a href="https://twitter.com/intent/tweet?text=debian&url=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fdebian%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fdebian%2f&t=debian" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="http://localhost:1313/clarity/post/papers/debian/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p>apt apt purge program-name # elimina config global del programa
+apt autoremove # elimina dependencias no utilizadas
+node curl -fsSL <a href="https://deb.nodesource.com/setup_20.x">https://deb.nodesource.com/setup_20.x</a> | sudo bash -
+sudo apt-get install -y nodejs
+repositories directorio /etc/apt/sources.list.d
+sonido alsamixer disable automute
+xcompose en …</p>
+          
+          <br>
+          <a href="http://localhost:1313/clarity/post/papers/debian/" title="Read More" class="excerpt_more button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </li>
+
+        <li class="post_item">
+  <div class="excerpt">
+    <div class="excerpt_header">
+      <h3 class="post_link">
+        <a href="http://localhost:1313/clarity/post/papers/startx/" title="startx">startx</a>
+      </h3>
+      
+  <div class="post_meta">
+    <span><svg class="icon">
+  <title>calendar</title>
+  <use xlink:href="#calendar"></use>
+</svg>
+</span>
+    <span class="post_date">
+      Jan 11, 2025	  
+    </span>
+    <span class="post_time"> · 1 min read</span>
+    <span class="page_only">&nbsp;·
+  <div class="post_share">
+    Share on:
+    <a href="https://twitter.com/intent/tweet?text=startx&url=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fstartx%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>twitter</title>
+  <use xlink:href="#twitter"></use>
+</svg>
+
+    </a>
+    <a href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fclarity%2fpost%2fpapers%2fstartx%2f&t=startx" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+      <svg class="icon">
+  <title>facebook</title>
+  <use xlink:href="#facebook"></use>
+</svg>
+
+    </a>
+    <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow">
+      <svg class="icon">
+  <title>linkedin</title>
+  <use xlink:href="#linkedin"></use>
+</svg>
+
+    </a>
+    <a href="http://localhost:1313/clarity/post/papers/startx/" title="Copy Link" class="link link_yank">
+      <svg class="icon">
+  <title>copy</title>
+  <use xlink:href="#copy"></use>
+</svg>
+
+    </a>
+  </div>
+  </span>
+  </div>
+
+    </div>
+      <div class="excerpt_footer">
+        <div class="pale">
+          
+            <p>1 2Xephyr -br -ac -noreset -screen 1680x1050 :1 -fullscreen &amp; 3DISPLAY=:1 startxfce4</p>
+          
+          <br>
+          <a href="http://localhost:1313/clarity/post/papers/startx/" title="Read More" class="excerpt_more button">Read More</a>
         </div>
       </div>
     </div>
@@ -243,11 +878,20 @@ Create a partial under /layouts/partials/hooks/head-end.html Add these lines to 
       <li class="page-item active">
         <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
       </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
+      <li class="page-item">
+        <a href="/clarity/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
       </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      <li class="page-item">
+        <a href="/clarity/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
+      </li>
+      <li class="page-item">
+        <a href="/clarity/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
+      </li>
+      <li class="page-item">
+        <a href="/clarity/page/3/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/clarity/page/5/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
     </ul>
       </li>
@@ -270,19 +914,16 @@ Create a partial under /layouts/partials/hooks/head-end.html Add these lines to 
     <div class="search_results results"></div>
   </div>
 
-        <h2>Jane Doe</h2>
+        <div class="author_header">
+          <img src="http://localhost:1313/clarity/images/aboutfoto.png" alt="waltermas photo">
+          <h2>waltermas</h2>
+        </div>
       <div class="author_bio">
-        Technologist, perpetual student, teacher, continual incremental improvement.
+        Technologist, perpetual student, chess player, carpenter, continual incremental improvement.
       </div>
       <a href='http://localhost:1313/clarity/about/' class="button mt-1" role="button" title='Read More'>Read More</a>
 
     
-    <h2 class="mt-4">Featured Posts</h2>
-    <ul>
-      <li>
-        <a href="http://localhost:1313/clarity/post/markdown-syntax/" class="nav-link" title="Markdown Syntax Guide">Markdown Syntax Guide</a>
-      </li>
-    </ul>
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
       <li>
@@ -298,50 +939,34 @@ Create a partial under /layouts/partials/hooks/head-end.html Add these lines to 
         <a href="http://localhost:1313/clarity/post/my-first-post/" class="nav-link" title="My First Post">My First Post</a>
       </li>
       <li>
-        <a href="http://localhost:1313/clarity/post/bundle/" class="nav-link" title="Using Hugo page bundles">Using Hugo page bundles</a>
+        <a href="http://localhost:1313/clarity/post/papers/nushell/" class="nav-link" title="nushell">nushell</a>
       </li>
       <li>
-        <a href="http://localhost:1313/clarity/post/map/" class="nav-link" title="Using OpenStreetMap">Using OpenStreetMap</a>
+        <a href="http://localhost:1313/clarity/post/papers/hacker/" class="nav-link" title="hacker">hacker</a>
       </li>
       <li>
-        <a href="http://localhost:1313/clarity/post/notices/" class="nav-link" title="Using Notices">Using Notices</a>
+        <a href="http://localhost:1313/clarity/post/papers/qemu/" class="nav-link" title="qemu">qemu</a>
       </li>
       <li>
-        <a href="http://localhost:1313/clarity/post/rich-content/" class="nav-link" title="Rich Content">Rich Content</a>
+        <a href="http://localhost:1313/clarity/post/papers/node/" class="nav-link" title="node">node</a>
       </li>
     </ul>
     <div>
       <h2 class="mt-4 taxonomy" id="categories-section">Categories</h2>
       <nav class="tags_nav">
+        <a href='http://localhost:1313/clarity/categories/papers/' class="post_tag button button_translucent" title="papers">
+          PAPERS
+          <span class="button_tally">46</span>
+        </a>
+        
         <a href='http://localhost:1313/clarity/categories/fabrica/' class="post_tag button button_translucent" title="fabrica">
           FABRICA
           <span class="button_tally">3</span>
         </a>
         
-        <a href='http://localhost:1313/clarity/categories/syntax/' class="post_tag button button_translucent" title="syntax">
-          SYNTAX
-          <span class="button_tally">2</span>
-        </a>
-        
         <a href='http://localhost:1313/clarity/categories/test/' class="post_tag button button_translucent" title="test">
           TEST
           <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/clarity/categories/themes/' class="post_tag button button_translucent" title="themes">
-          THEMES
-          <span class="button_tally">1</span>
-        </a>
-        
-        
-      </nav>
-    </div>
-    <div>
-      <h2 class="mt-4 taxonomy" id="series-section">Series</h2>
-      <nav class="tags_nav">
-        <a href='http://localhost:1313/clarity/series/themes-guide/' class="post_tag button button_translucent" title="themes guide">
-          THEMES GUIDE
-          <span class="button_tally">2</span>
         </a>
         
         
@@ -350,31 +975,6 @@ Create a partial under /layouts/partials/hooks/head-end.html Add these lines to 
     <div>
       <h2 class="mt-4 taxonomy" id="tags-section">Tags</h2>
       <nav class="tags_nav">
-        <a href='http://localhost:1313/clarity/tags/markdown/' class="post_tag button button_translucent" title="markdown">
-          MARKDOWN
-          <span class="button_tally">2</span>
-        </a>
-        
-        <a href='http://localhost:1313/clarity/tags/css/' class="post_tag button button_translucent" title="css">
-          CSS
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/clarity/tags/featured/' class="post_tag button button_translucent" title="featured">
-          FEATURED
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/clarity/tags/html/' class="post_tag button button_translucent" title="html">
-          HTML
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/clarity/tags/hugo/' class="post_tag button button_translucent" title="hugo">
-          HUGO
-          <span class="button_tally">1</span>
-        </a>
-        
         <a href='http://localhost:1313/clarity/tags/index/' class="post_tag button button_translucent" title="index">
           INDEX
           <span class="button_tally">1</span>
@@ -385,23 +985,8 @@ Create a partial under /layouts/partials/hooks/head-end.html Add these lines to 
           <span class="button_tally">1</span>
         </a>
         
-        <a href='http://localhost:1313/clarity/tags/privacy/' class="post_tag button button_translucent" title="privacy">
-          PRIVACY
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/clarity/tags/shortcodes/' class="post_tag button button_translucent" title="shortcodes">
-          SHORTCODES
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/clarity/tags/text/' class="post_tag button button_translucent" title="text">
-          TEXT
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='http://localhost:1313/clarity/tags/themes/' class="post_tag button button_translucent" title="themes">
-          THEMES
+        <a href='http://localhost:1313/clarity/tags/linux/' class="post_tag button button_translucent" title="linux">
+          LINUX
           <span class="button_tally">1</span>
         </a>
         
@@ -514,7 +1099,7 @@ Create a partial under /layouts/partials/hooks/head-end.html Add these lines to 
 
 <script type="text/javascript" src="http://localhost:1313/clarity/en/js/bundle.9fa45c8a7cb2f0769e1b09e91f76ea4d9c5976ebeea4cf0e65f7834dc87aa7100b88a6fc693e5d5fa9ebf643dccdf512e204ab39277324dee27ccf6a0f7705ec.js" integrity="sha512-n6Rcinyy8HaeGwnpH3bqTZxZduvupM8OZfeDTch6pxALiKb8aT5dX6nr9kPczfUS4gSrOSdzJN7ifM9qD3cF7A==" crossorigin="anonymous"></script>
 
-  <script src="http://localhost:1313/clarity/js/search.min.8d141e1e7aa85984a5288b2172ad03540fc235f64379f8df11d062fd3deb9d49bbd9fb0f3df983e9663e322fa8e322a336d5350fbe833c77eb9ee7d907636cff.js"></script>
+  <script src="http://localhost:1313/clarity/js/search.min.ca19890949fa202f861aad9b10e3d8b8fbaa5133a82437351602296ac69cced223c82434313c6ac681697f1ab771d3607a83f4e5cacf7f38827c7d5f7892e14e.js"></script>
 
   </body>
 </html>

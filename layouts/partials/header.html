@@ -9,24 +9,42 @@
       {{- partialCached "logo" (dict "logo" $logo) }}
     {{- end }}
     <div class='nav_body nav_body_{{ default "left" $params.mobileNavigation }}'>
-      {{ $context := . }}
-      {{ $menuData := .Site.Data.menu }}
-      {{ with $menuData }}
-        {{ partial "nav" (dict "context" $context "menu" $menuData) }}
-      {{- else }}
-        {{ partial "nav" (dict "context" . "menu" .Site.Menus.main) }}
-      {{- end }}
-      {{ if hugo.IsMultilingual }}
+      
+      <!-- Link a Inicio -->
       <div class="nav_parent">
-        <a href="#" class="nav_item">{{ $params.languageMenuName }}</a>
+        <a href="{{ site.BaseURL | relLangURL }}" class="nav_item" title="Inicio">Inicio</a>
+      </div>
+
+      <!-- Menú de Categorías -->
+      {{- if .Site.Taxonomies.categories }}
+      <div class="nav_parent">
+        <a href="#" class="nav_item" title="Categorías">Categorías <img src='{{ absURL "icons/caret-icon.svg" }}' alt="icon" class="nav_icon"></a>
         <div class="nav_sub">
           <span class="nav_child"></span>
-          {{ range .Site.Home.AllTranslations }}
-          <a href="{{ .Permalink }}" class="nav_child nav_item">{{ .Language.LanguageName }}</a>
-          {{ end }}
+          {{- range $name, $taxonomy := .Site.Taxonomies.categories }}
+          {{- with $.Site.GetPage (printf "/categories/%s" $name) }}
+          <a href="{{ .RelPermalink }}" class="nav_child nav_item" title="{{ .Title }}">{{ .Title }}</a>
+          {{- end }}
+          {{- end }}
         </div>
       </div>
       {{- end }}
+
+      <!-- Menú de Tags -->
+      {{- if .Site.Taxonomies.tags }}
+      <div class="nav_parent">
+        <a href="#" class="nav_item" title="Etiquetas">Etiquetas <img src='{{ absURL "icons/caret-icon.svg" }}' alt="icon" class="nav_icon"></a>
+        <div class="nav_sub">
+          <span class="nav_child"></span>
+          {{- range $name, $taxonomy := .Site.Taxonomies.tags }}
+          {{- with $.Site.GetPage (printf "/tags/%s" $name) }}
+          <a href="{{ .RelPermalink }}" class="nav_child nav_item" title="{{ .Title }}">{{ .Title }}</a>
+          {{- end }}
+          {{- end }}
+        </div>
+      </div>
+      {{- end }}
+
       {{- if $centerLogo }}
         {{- partial "logo" (dict "logo" $logo "class" "nav_center") }}
       {{- end }}
