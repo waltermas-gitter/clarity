@@ -32,6 +32,10 @@ pacman -Scc #remove all cache files
 
 sudo pacman -Rns $(pacman -Qtdq) #remove orfans packages
 ```
+sudo downgrade neovim tree-sitter  
+en /etc/pacman.conf agregar:  
+IgnorePkg = neovim tree-sitter  
+
 ## mirrors
 Edit /etc/pacman.d/mirrorlist uncomment the one you want  
 arch mirrorlist generator https://archlinux.org/mirrorlist/  
