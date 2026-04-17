@@ -6,4 +6,3 @@ categories: ["papers"]
 ---
 {{< radios >}}
 
-![image](/hugopapers/images/aboutfoto.png)
